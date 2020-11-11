@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/*
+model_list
+--------------------------------------------------------------------------------------------*/
+
+#listSctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#listMainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.listTitleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+		
+		.courseBox {
+			width: 585px;
+			margin: 20px auto 40px;
+		}
+		
+		.courseBox:after {
+				content: ".";
+				display: block;
+				visibility: hidden;
+				height: 0.1px;
+				font-size: 0.1em;
+				line-height: 0;
+				clear: both;
+			}
+
+		.courseBox {
+			zoom: 100%;
+		}
+		
+			.courseSet {
+				width: 180px;
+				float: left;
+			}
+			
+			.centerDl {
+				padding: 0 22px;
+			}
+			
+				.courseSet .areaName {
+					margin: 5px;
+					padding: 2px 0 0 5px;
+					border-left: 5px solid #ddd;
+					color: #ee0000;
+					font-weight: bold;
+				}
+				
+				.courseSet .description {
+					margin-bottom: 5px;
+					font-size: 0.9em;
+				}
+
+				.courseSet .linkTxt a:link 		{ display: block;padding: 2px 3px; background-color: #FFF1F2; text-decoration: underline; }
+				.courseSet .linkTxt a:active 	{ display: block;padding: 2px 3px; background-color: #FFF1F2; text-decoration: underline; }
+				.courseSet .linkTxt a:visited 	{ display: block;padding: 2px 3px; background-color: #FFF1F2; text-decoration: underline; }
+				.courseSet .linkTxt a:hover 	{ display: block;padding: 2px 3px; background-color: #FFE3E4; text-decoration: underline; }
+/*
+その他モデルコース
+--------------------------------------------------------------------------------------------*/
+
+.titleStyle{
+	width: 845px;
+	height: 20px;
+	padding: 12px 0 10px 25px;
+	background: url(../model_course/img/title_bg.gif) no-repeat;
+	overflow: visible;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+	.photoSide {
+		width: 320px;
+	}
+
+		.detailLink {
+			margin-top: 5px;
+			padding: 10px 80px 10px 10px;
+			background: url(../model_course/img/icon_blank.gif) no-repeat 240px 3px #EEE8BF;
+		}
+
+			.detailLink a:link 		{ color: #ee0000; text-decoration: none; }
+			.detailLink a:active 	{ color: #ee0000; text-decoration: none; }
+			.detailLink a:visited 	{ color: #ee0000; text-decoration: none; }
+			.detailLink a:hover 	{ color: #FF0D0D; text-decoration: underline; }
+		
+		.photoSup {
+			margin-top: 3px;
+			text-align: center;
+		}
+
+	.textSide {
+		width: 480px;
+	}
+
+		.textSide h4 {
+			font-size: 1.2em;
+			font-weight: bold;
+			color: #ee0000;
+		}
+
+		.supTxt {
+			line-height: 1.4em;
+			color: #ee0000;
+		}
+
+		.mainTxt {
+			margin: 10px 0;
+		}
+	
+		.shopData {
+			padding: 8px 10px 10px;
+			border-top: 1px dashed #404040;
+			border-bottom: 1px dashed #404040;
+		}
+	
+			.shopData li {
+				margin-top: 2px;
+				color: #996D19;
+			}
+			
+		.supInfoBox {
+			background-color: #f5f5f5;
+			padding: 10px 5px;
+			border-top: 1px solid #eee;
+			border-left: 1px solid #eee;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #bbb;
+		}
+
+			.supInfoBox dl {
+				width: 275px;
+			}
+
+				.supInfoBox dd.mainTxt {
+					margin: 5px 0;
+				}
+			
+				.supInfoData {
+					margin-top: 2px;
+				}
+				
+				.yellow {
+					color: #FFD200;
+				}
+				
+			.photoList {
+				margin: 15px 0;
+			}
+			
+			.photoList:after {
+				content: ".";
+				display: block;
+				visibility: hidden;
+				height: 0.1px;
+				font-size: 0.1em;
+				line-height: 0;
+				clear: both;
+			}
+
+			.photoList {
+				zoom: 100%;
+			}
+			
+				.photoList li {
+					width: 240px;
+					float: left;
+					text-align: center;
+				}
+
+	.separateLine {
+		margin-top: 20px;
+		padding-top: 20px;
+		border-top: 1px dashed #ccc;
+	}
+
+	.arrowArea {
+		padding: 10px 0;
+		text-align: center;
+	}
+	
+	.placeArea {
+		padding: 5px;
+		background-color: #FFCEDD;
+		color: #FC3434;
+		text-align: center;
+	}
+	
+	.goalPlace {
+		background-color: #FFA234;
+		color: #fff;
+	}
+	
+		.placeArea .koreanTxt {
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		
+	
+	.topNoSpace {
+		margin-top: 0;
+		padding-top: 0;
+	}
+	
+	.bottomSpace{
+		margin-bottom: 20px;
+	}
+
+#souvenirBox {
+	width: 730px;
+	margin: 0 auto;
+	padding: 10px 30px;
+	border: 5px solid #FFE6EE;
+}
+
+	#souvenirBox h4 {
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #EF3A41;
+	}
+	
+	.souvenirSet {
+		width: auto;
+		padding: 0 40px;
+	}
+
+		.souvenirSet dt {
+			margin: 20px 0 3px;
+			text-align: center;
+		}
+	
+		.souvenirSet dd {
+			line-height: 1.3em;
+			text-align: center;
+		}
+
+div.vertical {
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+	.vertical h4 {
+		margin-top: 10px;
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #ee0000;
+	}
+
+div.supVertical {
+	width: 220px;
+		text-align: center;
+}
+	.supVertical dl {
+		width: 220px;
+		margin-top: 5px;
+		text-align: left;
+	}
+
+		.supVertical dd.mainTxt {
+			margin: 3px 0;
+		}
+
+
+#asoYufuMap {
+	padding: 20px 0;
+	text-align: center;
+	background-color: #FFFFCC;
+	border: 3px double #eee;
+}
+
+#switchBackPhoto:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+
+#switchBackPhoto {
+	zoom: 100%;
+}
+
+#switchBackPhoto li {
+	width: auto;
+	float: left;
+	margin-right: 20px;
+}
+
+.nationalTreasure {
+	margin: 30px 20px 20px;
+	padding: 20px;
+	background-color: #FFF9D6;
+	border: 3px double #FFD200;
+}
+
+	.ntTitle {
+		margin-bottom: 20px;
+		padding: 7px 5px;
+		border-top: 5px solid #FFE87E;
+		border-bottom: 5px solid #FFE87E;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.nationalTreasure .photoSide {
+		width: 290px;
+	}
+	
+	.nationalTreasure .textSide {
+		width: 470px;
+	}
+	
+		.nationalTreasure .shopData li {
+			color: #F7421E;
+		}
+		
+
+
+

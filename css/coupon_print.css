@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#couponHeaderOut {
+	display: none;
+}
+
+.detailLower {
+	border: 1px #dddddd dashed;
+}
+
+#couponFooter {
+	display: none;
+}

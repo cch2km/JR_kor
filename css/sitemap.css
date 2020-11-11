@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+	
+	.imgArea {
+		width: 625px;
+		margin: 0 auto 20px;
+	}
+
+
+		.titleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-bottom: 15px;
+		}
+
+		#siteMapBox {
+			margin: 10px auto 20px;
+			padding: 0 20px;
+		}
+		
+			#siteMapBox li {
+				margin-top: 10px;
+				padding: 0 0 5px 10px;
+				border-bottom: 1px dashed #ccc;
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+
+			#siteMapBox li a:link,
+			#siteMapBox li a:active,
+			#siteMapBox li a:visited,
+			#siteMapBox li a:hover {
+				text-decoration: underline;
+			}
+			
+				#siteMapBox .innerPageList {
+					margin-top:5px;
+					padding: 0 20px;
+				}
+
+					#siteMapBox .innerPageList li {
+						font-size: ;
+						margin: 0;
+						padding: 0;
+						border-bottom: none;
+						font-size: 1.0em;
+						font-weight: normal;
+					}
+	

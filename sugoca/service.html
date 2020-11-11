@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SUGOCA | 상호 이용 서비스</title>
+	<meta name="keywords" content=",,,,,,,,," />
+	<meta name="description" content="" />
+	<meta http-equiv="Content-Language" content="ko" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/service.css" type="text/css" media="all" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/btn_ctrl.js"></script>
+</head>
+<body id="top">
+	<div id="container">
+<!-- header start -->
+		<div id="header">
+			<h1><img src="img/common/main_img.gif" width="800" height="265" alt="SUGOCA" usemap="#logo" /></h1>
+			<map name="logo">
+				<area shape="rect" coords="333,79,762,181" href="index.html" alt="top page" /> 
+				<area shape="rect" coords="701,234,781,252" href="index.html" alt="top page" />
+			</map>
+		</div>
+<!-- header end -->
+<!-- nav start -->
+		<ul id="nav">
+			<li id="btn01"><a href="features.html" title="특징"><img src="img/common/btn01_off.gif" width="170" height="42" alt="특징" /></a><br /></li>
+			<li><a href="service.html" title="상호 이용 서비스"><img src="img/common/btn02_off.gif" width="230" height="42" alt="상호 이용 서비스" /></a><br /></li>
+			<li id="using">
+				<a href="#" title="사용 방법"><img src="img/common/btn03_off.gif" width="230" height="42" alt="사용 방법" /></a><br />
+				<ul class="subMenu">
+					<li><a href="using/using.html" title="자동 개찰기 이용 방법">자동 개찰기 이용 방법</a></li>
+					<li><a href="using/equipment.html" title="충전할 수 있는 기기">충전할 수 있는 기기</a></li>
+					<li><a href="using/charge.html" title="현금 충전(입금)">현금 충전(입금)</a></li>
+					<li><a href="using/history.html" title="이용 내역 표시・프린트 방법">이용 내역 표시・프린트 방법</a></li>
+					<li><a href="using/buy.html" title="승차권 구입・정산 방법">승차권 구입・정산 방법</a></li>
+					<li><a href="using/calculate.html" title="운임 계산">운임 계산</a></li>
+				</ul>
+			</li>
+			<li id="others">
+				<a href="#" title="기타"><img src="img/common/btn04_off.gif" width="170" height="42" alt="기타" /></a><br />
+				<ul class="subMenu">
+					<li><a href="others/wicket.html" title="환승 개찰구의 이용에 관하여">환승 개찰구의 이용에 관하여</a></li>
+					<li><a href="others/money.html" title="전자화폐">전자화폐</a></li>
+					<li><a href="others/faq.html" title="Q&amp;A・주의 사항">Q&amp;A・주의 사항</a></li>
+					<li><a href="others/map.html" title="후쿠오카 교통 안내도">후쿠오카 교통 안내도</a></li>
+				</ul>
+			</li>
+		</ul>
+<!-- nav end -->
+<!-- contents start -->
+		<div id="contents">
+			<h2><img src="img/service/page_title.gif" width="800" height="98" alt="상호 이용 서비스" /></h2>
+	<!-- map start -->
+			<div class="section">
+				<div class="inner">
+					<p class="messageArea"><img src="img/service/service_copy.gif" width="498" height="68" alt="" /></p>
+					<p id="msgSup">
+						<span class="boldTxt">SUGOCA카드 1장으로 후쿠오카시 지하철과 니시테츠 전철 그리고 니시테츠 버스를 탈 수 있습니다.</span><br />
+						<span class="smallTxt">※상호 이용이 가능한 각 구역에서 사용할 때는 각 회사의 약관 등에 따릅니다.</span>
+					</p>
+					<div id="map">
+						<img src="img/service/service_map.gif" width="565" height="516" alt="사용 가능 구역 image" />
+					</div>
+					<ul id="mapSupTxt">
+						<li>후쿠오카시 지하철을 제외한 상호 이용 가능한 구역에서 사용했을 경우, SUGOCA카드 사용 구역 내의 기기에서는 이용 내역에 역명이 표시되거나 프린트되지 않습니다. 역명을 포함한 상세 이력이 필요한 경우에는 이용한 회사의 구역 내에서 확인하십시오.</li>
+						<li>상호 이용 가능한 각 구역의 IC카드 전용 기기에는「nimoca(니모카)」「はやかけん(하야카켄)」 등의 마크가 부착되어 있습니다.</li>
+						<li>상호 이용 서비스에 대한 자세한 내용은 이용하신 역의 역무원에게 문의하십시오.</li>
+					</ul>
+					
+					<ul id="attention">
+						<li>각 구역 내의 어느 한 역에서 내리는 경우에만 사용할 수 있습니다.</li>
+						<li>내릴 역을 지나쳐 사용 가능 구역 밖으로 벗어나거나, 다른 구역에 걸친 운행에는 이용할 수 없습니다.</li>
+						<li>신칸센은 이용할 수 없습니다. <span class="smallTxt">※SUGOCA카드는 니시테츠 버스의 환승 할인이 적용되지 않습니다. 타사 노선의 구역에서는 취급하지 않는 서비스가 있습니다.</span></li>
+					</ul>
+				</div>
+			</div>
+	<!-- map end -->
+	<!-- card info start -->
+			<div class="section">
+				<h3><img src="img/service/ok_txt.gif" width="358" height="22" alt="쇼핑도 SUGOCA카드 1장으로 OK!!" /></h3>
+				<div class="inner">
+					<p class="cardInfoTxt"><img src="img/service/card_info.gif" width="611" height="38" alt="이 서비스 마크가 부착되어 있는 가게에서 이용할 수 있습니다." /></p>
+					<dl id="cardDetail">
+						<dt>【SUGOCA(스고카)•nimoca(니모카)•はやかけん(하야카켄)의 사용 가능 구역에서 이용할 수 있는 서비스】</dt>
+						<dd><span class="circle">●</span>자동개찰기 통과&nbsp;</dd>
+						<dd><span class="circle">●</span>자동발매기•충전기•추가요금 정산기 등에서 충전(입금)&nbsp;</dd>
+						<dd><span class="circle">●</span>자동발매기에서 승차권 구입&nbsp;</dd>
+						<dd><span class="circle">●</span>추가요금 정산&nbsp;</dd>
+						<dd><span class="circle">●</span>자동발매기 등에서 이용 내역 표시•프린트&nbsp;</dd>
+						<dd><span class="circle">●</span>각 전자화폐 가맹점에서 쇼핑&nbsp;</dd>
+					</dl>
+				</div>
+				<div class="goTop"><a href="#top" title="Go top"><img src="img/common/go_top.gif" width="100" height="18" alt="Go top" /></a></div>
+			</div>
+	<!-- card info end -->
+		</div>
+<!-- contents end -->
+
+<!-- footer start -->
+		<div id="footer">
+			<address>Copyright (C) 2011 Kyushu Railway Company. All Rights Reserved.</address>
+		</div>
+<!-- footer end -->
+	</div>
+</body>
+</html>

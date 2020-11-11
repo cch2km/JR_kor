@@ -1,0 +1,91 @@
+﻿@charset "UTF-8";
+
+#illust {
+	margin: 10px 0 0 8px;
+}
+
+#logo {
+	margin: 165px 32px 0 0;
+}
+
+#infoBox {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0 20px 20px;
+	border-bottom: 1px solid #CB0D58;
+}
+
+	#boxInner {
+		width: 670px;
+		padding: 0 45px;
+		background: url(../img/index/box_bg.gif) repeat-y;
+	}
+	
+		#menu {
+			width: 300px;
+		}
+		
+			#menu ul {
+				padding: 0 10px;
+				background-color: #fff;
+			}
+
+			#menu ul li {
+				margin-top: 23px;
+			}
+
+			#menu ul li#btn01 {
+				margin-top: 0;
+			}
+/******* popupMenu start ******/
+			#menu ul li#using {
+				position: relative;
+			}
+			
+			#menu ul li#others {
+				position: relative;
+			}
+			
+			#menu ul.subMenu {
+					width: 200px;
+					background-color: #fff;
+					margin: 0;
+					padding: 7px 10px;
+					border: 1px solid #ccc;
+					position: absolute;
+					top: 4px;
+					left: 275px;
+					z-index: 1000;
+				}
+
+				#menu ul.subMenu li {
+					margin: 0;
+				}
+
+					#menu ul.subMenu li a {
+						display: block;
+						margin: 0;
+						padding: 4px 4px 4px 6px;
+						border-bottom: 1px dashed #3D151E;
+						background: url(../img/common/submenu_arrow.gif) no-repeat 0 10px;
+					}
+				
+					#menu ul.subMenu li a:link 		{ text-decoration: none; }
+					#menu ul.subMenu li a:hover 	{ background-color: #FDDCE9; text-decoration: none; }
+					#menu ul.subMenu li a:visited 	{ text-decoration: none; }
+
+/******* popupMenu end ******/
+
+		#cardInfo {
+			width: 330px;
+		}
+
+		#cardInfo dt,
+		#cardInfo dd {
+			text-align: center;
+			font-size: 0.8em;
+		}
+
+		#cardInfo dd#cardImage {
+			margin: 5px 0 0;
+		}

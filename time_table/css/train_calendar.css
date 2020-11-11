@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body { 
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", 'Verdana', 'Gulim', 'Apple Gothic', 'Arial', sans-serif;
+}
+
+div#calendar_container {
+	width: 265px;
+	margin: 0 auto;
+}
+
+
+td {font-size:13px; color:#000000;}
+
+.title_box	{background-color:#ffe1e6;}
+b.btop, b.btop b, b.bbot, b.bbot b{
+    display: block;height: 5px;font-size: 1px;
+    background-image:url(../img/train_calendar/transparent.gif);
+    background-repeat: no-repeat}
+b.btop b{background-position: 100% -5px}
+b.bbot{background-position: 0 -10px}
+b.bbot b{background-position: 100% -15px}
+
+
+div.title		{margin:4px 18px 0px 10px; color:#bf0a13;}
+span.train_type		{font-size:10px;}
+span.train_name		{font-size:18px; font-weight:bold;}
+span.train_no		{font-size:18px; font-weight:bold;}
+span.train_name_s	{font-size:10px;}
+
+div.line	{margin-top:10px; border-bottom:dotted 1px #d1abd1}
+
+.month	{font-size:15px; color:#003399; font-weight:bold;}
+
+table.month_calendar {border:solid 1px #000000;}
+
+.weeklabel	{width:18px;font-size:10px;}
+
+.weekday	{color:#000000;}
+.holiday	{color:#ff0033;}
+.invalid	{color:#cccccc;}
+.run	{background-color:#ffc3d6; font-weight:bold;}
+

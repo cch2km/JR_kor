@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>JR KYUSHU RAILWAY COMPANY | 시각표</title>
+	<meta name="keywords" content=",,,,,,,,," />
+	<meta name="description" content="" />
+	<meta http-equiv="Content-Language" content="ko" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/time_table.css" type="text/css" media="all" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.li-scroller.js"></script>
+	<script type="text/javascript" src="js/marquee.js"></script>
+	<script type="text/javascript" src="js/btn_ctrl.js"></script>
+	<script type="text/javascript" src="js/timetable.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+	$(".timeTable").each(function(){
+	//    jQuery(this).find("tr td:odd").addClass("price");
+			jQuery(this).find("tbody tr:odd").addClass("grayTd");
+	});
+});
+	</script>
+</head>
+<body id="top">
+	<div id="container">
+<!-- header start -->
+		<div id="header">
+			<div id="logo">
+				<h1>JR KYUSHU RAILWAY COMPANY</h1>
+				<a href="../index.html" title="JR KYUSHU RAILWAY COMPANY"><img src="img/common/logo.gif" width="343" height="18" alt="JR KYUSHU RAILWAY COMPANY" id="logoImg" /></a>
+			</div>
+			<ul id="headerNav">
+				<li><a href="../index.html" title="HOME">HOME</a></li>
+				<li><a href="../company.html" title="회사개요">회사개요</a></li>
+				<li><a href="../sitemap.html" title="사이트맵">사이트맵</a></li>
+			</ul>
+		</div>
+<!-- header end -->
+<!-- nav start -->
+		<ul id="nav">
+			<li><a href="../news/news_list.html" title="공지사항"><img src="../img/common/btn01_off.gif" width="119" height="34" alt="공지사항" /></a></li>
+			<li><a href="../railpass.html" title="레일패스안내"><img src="../img/common/btn02_off.gif" width="119" height="34" alt="레일패스안내" /></a></li>
+			<li><a href="../time_table/time_table.html" title="시각표"><img src="../img/common/btn03_off.gif" width="118" height="34" alt="시각표" /></a></li>
+			<li><a href="../train/train_index.html" title="열차 소개"><img src="../img/common/btn04_off.gif" width="119" height="34" alt="열차 소개" /></a></li>
+			<li><a href="../model_course/model_list.html" title="모델코스"><img src="../img/common/btn05_off.gif" width="118" height="34" alt="모델코스" /></a></li>
+			<li><a href="../tips_for_tourists.html" title="관광정보 입소문"><img src="../img/common/btn06_off.gif" width="119" height="34" alt="관광정보 입소문" /></a></li>
+			<li><a href="http://www.jrkyushu.co.jp/korean/sugoca/" title="SUGOCA" target="_blank"><img src="../img/common/btn07_off.gif" width="119" height="34" alt="SUGOCA" /></a></li>
+			<li><a href="../coupon/coupon_list.html" title="쿠폰"><img src="../img/common/btn09_off.gif" width="119" height="34" alt="쿠폰" /></a></li>
+		</ul>
+<!-- nav end -->
+<!-- billboard start -->
+		<div id="billboard">
+			<ul id="newslist">
+				<!--<li><span>큐슈신칸센이 2011년 3월 12일 완전개통되었습니다.</span></li>
+				<li><span>열차시간이 갱신되었습니다.</span></li>-->
+				<li><span>2011년 12월 1일부터 북부큐슈지역 5일권 레일패스가 판매개시됩니다.</span></li>
+			</ul>
+		</div>
+<!-- billboard end -->
+		<div id="contentsInsidePage">
+<!-- ▼▼▼▼▼contents start▼▼▼▼▼ -->
+	<!-- main_img start -->
+			<h2 id="pageTitle"><img src="img/time_table/main_img.jpg" width="910" height="130" alt=""  /></h2>
+			<div class="section">
+				<div id="mapArea">
+					<img src="img/time_table/kyushu_map_ko01.jpg" alt="" width="871" height="263" border="0" usemap="#Map" /><br />
+					<img src="img/time_table/kyushu_map_ko02.jpg" alt="" width="871" height="157" border="0" usemap="#Map2" /><br />
+					<img src="img/time_table/kyushu_map_ko03.jpg" alt="" width="871" height="199" border="0" usemap="#Map3" /><br />
+					<img src="img/time_table/kyushu_map_ko04.jpg" alt="" width="871" height="200" border="0" usemap="#Map4" /><br />
+					<img src="img/time_table/kyushu_map_ko05.jpg" alt="" width="871" height="123" border="0" usemap="#Map5" />
+					<map name="Map" id="Map">
+						<area shape="rect" coords="55,183,143,205" href="" onclick="return timetable_change('kamome');" alt="Kamome,Midori,Huistenbosche" />
+						<area shape="rect" coords="548,137,637,160" href="" onclick="return timetable_change('sonic');" alt="Sonic,Nichirin,Hyuga" />
+						<area shape="rect" coords="418,109,508,131" href="" onclick="return timetable_change('kaio');" alt="kaio" />
+				  </map>				
+					<map name="Map2" id="Map2">
+						<area shape="rect" coords="151,68,239,90" href="" onclick="return timetable_change('ariake');" alt="Ariake" />
+						<area shape="rect" coords="630,118,718,141" href="" onclick="return timetable_change('yufu');" alt="YufuDX,Yufuinnomori" />
+				  </map>
+					<map name="Map3" id="Map3">
+						<area shape="rect" coords="180,49,269,71" href="" onclick="return timetable_change('atrain');" alt="A-Train" />
+						<area shape="rect" coords="570,160,658,183" href="" onclick="return timetable_change('kyushu-odan');" alt="Kyushuoudan-kumagawa,Aso boy" />
+				  </map>
+					<map name="Map4" id="Map4">
+						<area shape="rect" coords="761,138,849,162" href="" onclick="return timetable_change('kirishima');" alt="Kirishima" />
+						<area shape="rect" coords="170,155,259,177" href="" onclick="return timetable_change('sendai');" alt="sendai" />
+						<area shape="rect" coords="776,79,865,99" href="" onclick="return timetable_change('umisachiyamasachi');" alt="UmisachiYamasachi" />
+				  		<area shape="rect" coords="158,8,246,29" href="" onclick="return timetable_change('kyushu-shinkansen');" alt="Kyushu-Shinkansen" />
+					</map>
+					<map name="Map5" id="Map5">
+						<area shape="rect" coords="209,88,298,110" href="" onclick="return timetable_change('ibusuki');" alt="Ibusuki no Tamatebako" />
+						<area shape="rect" coords="501,79,589,103" href="" onclick="return timetable_change('hayato');" alt="HayatonoKaze" />
+				  </map>
+					
+					<!--
+					<a href="" onclick="return timetable_change('tsubame');">九州新幹線</a><br>
+					<a href="" onclick="return timetable_change('kamome');">かもめ・みどり・ハウステンボス</a><br>
+					<a href="" onclick="return timetable_change('ariake');">有明・きらめき</a><br>
+					<a href="" onclick="return timetable_change('sonic');">にちりん・ソニック</a><br>
+					<a href="" onclick="return timetable_change('kirishima');">きりしま</a><br>
+					<a href="" onclick="return timetable_change('yufu');">ゆふ・ゆふＤＸ・ゆふいんの森</a><br>
+					<a href="" onclick="return timetable_change('kyushu-odan');">くまがわ・九州横断特急</a><br>
+					<a href="" onclick="return timetable_change('hayato');">はやとの風</a><br>
+					<a href="" onclick="return timetable_change('kaio');">かいおう</a><br>
+					<a href="" onclick="return timetable_change('umisachiyamasachi');">海幸山幸</a><br>
+					-->
+					<div id="timeTableArea">
+					</div>
+					<div class="goTop"><a href="#top" title=""><img src="img/common/go_top.gif" width="79" height="14" /></a></div>
+			  </div>
+				
+			</div>
+	<!-- main_img end -->
+<!-- ▲▲▲▲▲contents end▲▲▲▲▲ -->
+		</div>
+	</div>
+<!-- footer start -->
+	<div id="footer" class="clearFix">
+
+		<div id="footCnt">
+			<ul>
+				<li><a href="index.html" title="HOME">HOME ｜</a></li>
+				<li><a href="news/news_list.html" title="공지사항"> 공지사항 </a>｜</li>
+				<li><a href="railpass.html" title="레일패스안내"> 레일패스안내 </a>｜</li>
+
+				<li><a href="time_table/time_table.html" title="시각표"> 시각표 </a>｜</li>
+				<li><a href='train/train_index.html' title="열차소개"> 열차소개 </a>｜</li>
+			</ul>
+			<ul>
+				<li><a href="model_course/model_list.html" title="모델코스"> 모델코스 </a>｜</li>
+
+				<li><a href="tips_for_tourists.html" title="관광정보 입소문"> 관광정보 입소문 </a>｜</li>
+				<li><a href="http://www.jrkyushu.co.jp/korean/sugoca/" title="SUGOCA" target="_blank"> SUGOCA </a>｜</li>
+				<li><a href="coupon/coupon_list.html" title="쿠폰"> 쿠폰 </a>｜</li>
+				<li><a href="company.html" title="회사개요"> 회사개요 </a>|</li>
+
+				<li><a href="sitemap.html" title="사이트맵"> 사이트맵</a></li>
+			</ul>
+			<address>Copyright (C) 2011 Kyushu Railway Company. All Rights Reserved.</address>
+		</div>
+	</div>
+<!-- footer end -->
+<script type="text/javascript" src="http://raku2fx.com/fxapi.min.js"></script>
+</body>
+
+</html>

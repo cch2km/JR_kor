@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/*
+model_list
+--------------------------------------------------------------------------------------------*/
+
+#listSctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#listMainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.listTitleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+		
+			#courseList dl {
+				width: 198px;
+				float: left;
+			}
+		
+				#courseList dl.centerDl {
+					padding: 0 15px;
+				}
+				
+				#courseList dl dd {
+					background: url(../model_course/img/list/arrow_red.gif) 0px 3px no-repeat;
+					padding-left: 1em;
+				}
+				
+					#courseList dl dd a {
+						text-decoration: underline;
+					}
+
+		#mapArea {
+			margin: 15px auto 30px;
+		}
+		
+		#btnArea {
+			width: 520px;
+			border: 6px #cccccc solid;
+			margin: 0 auto 15px;
+			padding: 15px 20px;
+		}
+			
+			#btnArea .induction {
+				float: left;
+				padding: 10px;
+			}
+			
+			#btnArea .banner {
+				float: right;
+				padding: 0 15px;
+			}
+
+/*
+course page
+--------------------------------------------------------------------------------------------*/
+
+.titleStyleLong {
+	width: 870px;
+	height: 20px;
+	padding: 12px 0 10px 25px;
+	background: url(../img/japan/title_bg_long.gif) no-repeat;
+	overflow: visible;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.dayArea {
+	width: 830px;
+	margin: 0 auto 50px;
+}
+
+.dayTitle {
+	margin: 0 0 10px;
+}

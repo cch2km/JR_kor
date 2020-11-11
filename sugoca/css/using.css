@@ -1,0 +1,342 @@
+﻿@charset "UTF-8";
+
+div.section {
+	margin-top: 0;
+}
+
+div.sctSpace {
+	margin-top: 30px;
+}
+
+.usingMsg {
+	margin-top: 0px;
+}
+
+	.usingMsg p {
+		margin-top: 30px;
+	}
+	
+	.msgTopSpace {
+		margin: 10px 20px 0 0;
+	}
+
+#usingDescription {
+	width: 552px;
+	margin: 10px auto 0;
+	padding: 15px 20px;
+	background-color: #fff;
+	border: 3px solid #ED4F8E;
+}
+
+#descriptionTable {
+	margin: 30px auto 0;
+	border-collapse: collapse;
+}
+
+	#descriptionTable th,
+	#descriptionTable td {
+		padding: 10px;
+		border-top: 1px dashed #ED4F8E;
+		border-bottom: 1px dashed #ED4F8E;
+		border-collapse: collapse;
+		vertical-align: top;
+	}
+
+	#descriptionTable th {
+		width: 64px;
+		text-align: center;
+		border-right: 3px double #F37AAA;
+	}
+
+		.descTxt {
+			width: 420px;
+			margin-right: 10px;
+			color: #ED4F8E;
+		}
+
+		.long {
+			width: 100%;
+		}
+			.descTxt dt {
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+				border-bottom: 2px solid #FEC5DC;
+			}
+		
+		#supInfo {
+			margin-top: 10px;
+			padding: 5px 10px;
+			background-color: #E5F9C7;
+			border: 3px double #C1E588;
+			color: #2A9500;
+		}
+
+			#supInfo dt {
+				margin-bottom: 5px;
+			}
+
+
+#attention {
+	margin-top: 20px;
+}
+
+	#attention ul {
+		width: 710px;
+		margin: 10px auto 0;
+	}
+
+		#attention ul li {
+			margin-top: 3px;
+			margin-left: 15px;
+			list-style: disc;
+			color: #ED4F8E;
+		}
+
+/*
+equipment
+-------------------------------------------------------------------------------*/
+
+#equipmentList {
+	width: 600px;
+	margin: 30px auto;
+}
+
+	#equipmentList li {
+		width: 600px;
+		margin: 10px auto 0;
+	}
+
+/*
+history
+-------------------------------------------------------------------------------*/
+
+#confirmBox {
+	margin-top: 0px;
+	background-color: #E9528E;
+	padding-bottom: 10px;
+}
+
+	#confirmBox ul {
+		width: 700px;
+		margin: 5px auto 0;
+	}
+
+		#confirmBox ul li {
+			margin-left: 15px;
+			margin-top: 5px;
+			list-style-type: disc;
+		}
+
+#usage {
+	width: 740px;
+	margin: 10px auto 20px;
+	background: url(../img/using/history/usage_bg.gif) repeat-y;
+}
+
+	#usage h3 {
+		width: 24px;
+		padding: 20px 8px;
+	}
+	
+	#usageTable {
+		margin-right: 10px;
+	}
+	
+		#usageTable th,
+		#usageTable td {
+			padding: 3px;
+			text-align: left;
+			vertical-align: top;
+		}
+		
+		#usageTable tbody th {
+			width: 100px;
+			padding-right: 10px;
+		}
+		
+			#usageTable tbody th .bgStyle {
+				padding: 3px 5px;
+				background-color: #A09E8D;
+				text-align: center;
+				color: #fff;
+			}
+
+		#usageTable td.leftSide {
+			padding-right: 20px;
+		}
+	
+#historyCharge {
+	width: 700px;
+	margin: 10px auto 0;
+	background: url(../img/using/history/charge_bg.gif) repeat-y;
+}
+
+	#chargeTextBox {
+		width: 615px;
+		margin: 20px auto 0;
+	}
+	
+		#chargeTextBox ol {
+			width: auto;
+			margin: 0;
+			padding: 0;
+		}
+		
+		*html #chargeTextBox ol:after {
+			content: ".";
+			display: block;
+			visibility: hidden;
+			height: 0.1px;
+			font-size: 0.1em;
+			line-height: 0;
+			clear: both;
+		}
+
+		*html #chargeTextBox ol {
+			zoom: 100%;
+			
+		}
+		
+		#chargeTextBox ol li {
+			margin: 0;
+			padding: 0;
+		}
+
+			*html #chargeTextBox ol li {
+				float: left;
+			}
+
+
+#boxSet {
+	width: 700px;
+	margin: 20px auto;
+}
+
+.boxSet {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#historyInsert {
+	width: 337px;
+	margin: 0;
+	background: url(../img/using/history/insert_bg.gif) repeat-y;
+}
+
+		.descriptionList {
+			width: 297px;
+			margin: 0 auto 0;
+			padding: 0 0 0 0;
+		}
+		
+		*html .descriptionList:after {
+			content: ".";
+			display: block;
+			visibility: hidden;
+			height: 0.1px;
+			font-size: 0.1em;
+			line-height: 0;
+			clear: both;
+		}
+
+		*html .descriptionList {
+			zoom: 100%;
+		}
+
+			.descriptionList li {
+				margin: 0;
+				padding: 0;
+			}
+
+			.descriptionList li.textList {
+				padding-left: 19px;
+			}
+
+			*html .descriptionList li {
+				float: left;
+			}
+
+#historyHolder {
+	width: 337px;
+	margin: 0;
+	background: url(../img/using/history/holder_bg.gif) repeat-y;
+}
+
+/*
+charge
+-------------------------------------------------------------------------------*/
+
+#checkoutCharge {
+	width: 700px;
+	margin: 20px auto;
+	background: url(../img/using/buy/checkout_bg.gif) repeat-y;
+}
+
+#chargeCharge {
+	width: 337px;
+	margin: 0;
+	background: url(../img/using/charge/charge_bg.gif) repeat-y;
+}
+
+#chargeAutomatic {
+	width: 337px;
+	margin: 0;
+	background: url(../img/using/charge/automatic_bg.gif) repeat-y;
+}
+
+#attention {
+	margin-top: 10px;
+}
+
+	#attention ul {
+		width: 710px;
+		margin: 10px auto 0;
+	}
+
+		#attention ul li {
+			margin-top: 3px;
+			margin-left: 15px;
+			list-style: disc;
+			color: #ED4F8E;
+		}
+
+/*
+calculate
+-------------------------------------------------------------------------------*/
+
+.calculateMsg {
+	width: 580px;
+	margin-top: 20px;
+	padding: 0 0 20px 0;
+}
+
+	.calculateMsg dd {
+		width: 540px;
+		margin: 10px 0 0 0;
+		font-weight: bold;
+	}
+
+div.separateBorder {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 3px double #ccc;
+}
+
+.areaMapMsg {
+	padding: 0 0 20px 0;
+}
+
+	.areaMapMsg dd {
+		margin: 10px 0 0 0;
+		font-weight: bold;
+	}
+	
+#areaMapSup {
+	padding-top: 10px;
+}
+	
+	#areaMapSup dt {
+		margin: 10px 0 5px;
+		font-weight: bold;
+		color: #E9528E;
+	}

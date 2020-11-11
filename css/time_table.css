@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#mapArea {
+	padding-bottom: 20px;
+	border-bottom: 3px double #ccc;
+}
+
+	.upLine {
+		width: 400px;
+		float: left;
+		margin: 20px 0 30px;
+	}
+
+	.downLine {
+		width: 400px;
+		float: right;
+		margin: 20px 0 30px;
+	}
+	
+		.routName {
+			margin-bottom: 5px;
+			padding: 10px 0 10px 40px;
+			background: url(../img/time_table/icon_clock.gif) no-repeat;
+			font-size: 1.4em;
+			color: #ee0000;
+			font-weight: bold;
+			white-space:normal;
+		}
+
+		.timeTable {
+			width: 400px;
+			border: 1px solid #ccc;
+			border-collapse: separate;
+		}
+		
+		.timeTable th,
+		.timeTable td {
+			padding: 3px;
+			font-size: 11px;
+			border: 1px solid #ddd;
+			border-collapse: separate;
+			text-align: center;
+		}
+		
+		.timeTable thead td {
+			white-space: nowrap;
+			text-align: center;
+			background-color: #E5F6FF;
+		}
+		
+		.timeTable tbody th {
+			font-weight: normal;
+			text-align: left;
+			background-color: #FFFEE8;
+		}
+		
+			.grayTd td {
+				background-color: #f3f3f3;
+			}
+		
+	#switchBtn {
+		clear: both;
+		text-align: center;
+	}

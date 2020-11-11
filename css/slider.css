@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/*Required*/
+.slideArea { width:946px; height:300px; overflow:hidden; position:relative; cursor:pointer; }
+.slides { position:absolute; top:0; left:0; list-style:none; padding:0; margin:0; }
+.slides li { position:absolute; top:0; width:946px; display:none; padding:0; margin:0; }
+/*Optional*/
+#loopedSlider,#newsSlider { margin:0 auto; width:946px; position:relative; clear:both; }
+.slides li { padding-bottom:20px; }
+ul.pagination { list-style:none; padding:0; margin:0; }
+ul.pagination li  { float:left; }
+ul.pagination li a { padding:2px 4px; }
+ul.pagination li.active a { background:blue; color:white; }
+

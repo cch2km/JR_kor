@@ -1,0 +1,58 @@
+﻿@charset "UTF-8";
+
+#msgSup {
+	margin-top: 10px;
+}
+
+#map {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#mapSupTxt {
+	width: 539px;
+	margin: 5px auto;
+	padding: 10px;
+	border: 3px dotted #E9528E;
+}
+
+	#mapSupTxt li {
+		color: #E9528E;
+		padding-left: 12px;
+		background: url(../img/service/mapsup_icon.gif) no-repeat 0 3px;
+	}
+
+#attention {
+	margin: 20px 0 0;
+	padding: 10px;
+	border-top: 3px double #FDD000;
+	border-bottom: 3px double #FDD000;
+}
+
+	#attention li {
+		margin-top: 3px;
+		margin-left: 15px;
+		list-style: disc;
+		font-weight: bold;
+	}
+	
+#cardInfoTxt {
+	margin-top: 10px;
+}
+
+#cardDetail {
+	margin-top: 15px;
+}
+
+	#cardDetail dt {
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+	
+	#cardDetail dd {
+		display: inline;
+	}
+	
+		#cardDetail dd .circle {
+			color: #FDD000;
+		}

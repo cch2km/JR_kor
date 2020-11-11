@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+/*
+coupon_list
+--------------------------------------------------------------------------------------------*/
+
+h4.copyImage {
+	margin:0 auto 30px;
+}
+
+h5.countyName {
+	margin:0 auto 25px;
+	padding: 0 0 0 10px;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 150%;
+	background: #ffe3e3;
+	/*border-bottom: 3px #dddddd double;*/
+}
+		
+.titleStyle {
+	width: 600px;
+	height: 20px;
+	padding: 12px 0 10px 25px;
+	background: url(../img/japan/title_bg.gif) no-repeat;
+	overflow: visible;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.squareHead {
+	color: #ff0000;
+}
+
+#listSctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+.listMainArea {
+	width:585px;
+	float:left;
+}
+
+.entry {
+	margin: 0 0 25px;
+}
+
+.imageArea {
+	width:250px;
+}
+	
+	.imageArea div {
+		width:183px;
+		margin:13px auto;
+	}
+
+.detailArea {
+	width:315px;
+}
+
+	.detailArea dt {
+		padding: 5px 0 3px 45px;
+		margin-bottom: 15px;
+		border-bottom: 6px #eeeeee solid;
+		min-height: 30px;
+		height: auto !important;
+		height: 30px;
+		font-size: 130%;
+		font-weight: bold;
+		line-height: 180%;
+	}
+
+	.detailArea dd {
+		padding: 0px 0 10px 45px;
+		margin-bottom: 10px;
+		border-bottom: 1px #dddddd dotted;
+		min-height: 30px;
+		height: auto !important;
+		height: 30px;
+		line-height: 140%;
+	}
+
+	.iconInfo {
+		border: 6px #eeeeee solid;
+		padding: 15px 25px;
+		margin: 40px auto 15px;
+	}
+
+		.iconInfo li {
+			float: left;
+			width: auto;
+			padding: 0 30px 0 30px;
+		}
+
+		.bgStoreL { background: url(../coupon/img/icon_store_l.gif) 0px 0px no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+		.bgInfoL { background: url(../coupon/img/icon_info_l.gif) 0 3px no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+		.bgSpL { background: url(../coupon/img/icon_sp_l.gif) 0 3px no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+
+		.bgStoreS { background: url(../coupon/img/icon_store_s.gif) 0 0 no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+		.bgInfoS { background: url(../coupon/img/icon_info_s.gif) 0 0 no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+		.bgSpS { background: url(../coupon/img/icon_sp_s.gif) 0 0 no-repeat; min-height: 21px; height: auto !important; height: 21px; }
+
+
+/*
+coupon page
+--------------------------------------------------------------------------------------------*/
+
+#couponHeaderOut {
+	border-bottom: 8px #e60012 solid;
+	margin-bottom: 20px;
+}
+
+#couponHeader {
+	width: 585px;
+	margin: 0 auto; 
+	padding: 10px 10px;
+	zoom: 100%;
+}
+
+#couponHeader:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+	
+	#couponHeader #logo {
+		width: 343px;
+		height: 18px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+	}
+
+		#couponHeader #logoImg {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	
+	#couponHeader #headerNav {
+		width: auto;
+		float: right;
+	}
+
+.couponTitle {
+	width: 585px;
+	font-size: 180%;
+	line-height: 180%;
+	font-weight: bold;
+	margin: 0 auto 20px;
+	border-bottom: 3px #dddddd double;
+}
+
+#couponDetailArea {
+	width:585px;
+	margin: auto;
+	font-size: 120%;
+}
+
+.detailUpper {
+	margin: 0 auto 0px;
+}
+
+.storeData {
+	width: 315px;
+	float: right;
+}
+
+	.storeData table {
+		width: 315px;
+		border-collapse: collapse;
+		border-spacing: none;
+		border: 0;
+	}
+
+		.storeData table td {
+			vertical-align: top;
+			line-height: 130%;
+		}
+
+			.storeData table td p {
+				font-weight: bold;
+				margin-bottom: 3px;
+			}
+	
+		.storeData table tr.boldLine {
+			border-bottom: 6px #eeeeee solid;
+		}
+		
+			.storeData table tr.boldLine td {
+				padding-bottom: 7px;
+				font-size: 130%;
+				font-weight: bold;
+				line-height: 180%;
+			}
+	
+		.storeData table tr.dotLineUp {
+			border-bottom: 1px #dddddd dotted;
+		}
+		
+			.storeData table tr.dotLineUp td {
+				padding: 15px 0 10px;
+			}
+	
+		.storeData table tr.dotLineLo {
+			/*border-bottom: 1px #dddddd dotted;*/
+		}
+		
+			.storeData table tr.dotLineLo td {
+				padding: 10px 0 10px;
+			}
+
+.couponAttention {
+	padding: 5px;
+}
+
+	.couponAttention li {
+		line-height: 110%;
+		margin-bottom: 5px;
+	}
+
+.detailLower {
+	border: 1px #dddddd dashed;
+	background: #f8f5eb;
+	padding: 6px 10px;
+	margin: 10px 0 15px;
+}
+	
+	.detailLower table {
+		width: 565px;
+		border-collapse: collapse;
+		border-spacing: none;
+		border: 0;
+	}
+		
+		.detailLower table td {
+			vertical-align: top;
+			line-height: 120%;
+			padding: 4px 0;
+		}
+
+#map {
+	width: 585px;
+	height: 340px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+#mapWrap {
+	display: block;
+	width: 300px;
+	height: 60px;
+}
+
+.printBtn {
+	text-align: center; 
+	margin: 10px auto 10px;
+}
+
+
+	.iconInfo2 {
+		border: 6px #eeeeee solid;
+		padding: 15px 15px 5px 15px;
+		margin: 20px auto 35px;
+	}
+
+	*+html .iconInfo2 {
+		border: 6px #eeeeee solid;
+		padding: 15px 15px 15px 15px;
+		margin: 20px auto 35px;
+	}
+	
+	* html  .iconInfo2 {
+		padding-bottom: 15px;
+	}
+	
+		.iconInfo2 li {
+			float: left;
+			width: auto;
+			padding: 0 10px 0 0;
+			margin-bottom: 10px;
+		}
+			
+			.iconInfo2 li img {
+				display: block;
+				float: left;
+			}	 
+			
+			.iconInfo2 li p {
+				 float:left; 
+				 padding: 3px 5px 0 10px;
+				 white-space: nowrap;
+			}
+			
+#couponFooter {
+	border-top: 1px #eeeeee solid;
+	background: #eeeeee;
+	padding: 5px;
+	text-align: center;
+	font-size: 120%;
+}
+
+.listTbl {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin-bottom: 25px;
+	border: 1px #ccc solid;
+}
+
+	.listTbl th {
+		background: #edf5ff;
+		border-top: 1px #ccc dashed;
+		border-right: 1px #ccc solid;
+		border-bottom: 1px #ccc dashed;
+		border-left: 1px #ccc solid;
+		padding: 10px;
+	}
+
+	.listTbl thead th {
+		background: #d3e5fb;
+		border-bottom: 1px #ccc solid;
+		font-size: 120%;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.listTbl td {
+		background: #fff;
+		padding: 10px;
+	}
+
+		.listTbl td p {
+			font-weight: bold;
+			margin-bottom: 3px;
+		}
+	
+	.listTbl tbody td {
+		background: #fff;
+		border-top: 1px #ccc dashed;
+		border-right: 1px #ccc solid;
+		border-bottom: 1px #ccc dashed;
+		border-left: 1px #ccc solid;
+	}
+
+.pageList {
+	width: ;
+	padding: 10px;
+	text-align: center;
+}
+
+	.pageList li {
+		display:inline;
+		padding-right:1em;
+	}
+
+	.pageLinkbtn a:link { padding: 5px; border: 5px #eee solid; background:#fff; }
+	.pageLinkbtn a:active { padding: 5px; border: 5px #eee solid; background:#fff; }
+	.pageLinkbtn a:visited { padding: 5px; border: 5px #eee solid; background:#fff; }
+	.pageLinkbtn a:hover { padding: 5px; border: 5px #eee solid; background:#ffe3e3; }

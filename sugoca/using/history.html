@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SUGOCA | 사용 방법 -이용 내역 표시・프린트 방법-</title>
+	<meta name="keywords" content=",,,,,,,,," />
+	<meta name="description" content="" />
+	<meta http-equiv="Content-Language" content="ko" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="../css/using.css" type="text/css" media="all" />
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/btn_ctrl.js"></script>
+</head>
+<body id="top">
+	<div id="container">
+<!-- header start -->
+		<div id="header">
+			<h1><img src="../img/common/main_img.gif" width="800" height="265" alt="SUGOCA" usemap="#logo" /></h1>
+			<map name="logo">
+				<area shape="rect" coords="333,79,762,181" href="../index.html" alt="top page" /> 
+				<area shape="rect" coords="701,234,781,252" href="../index.html" alt="top page" />
+			</map>
+		</div>
+<!-- header end -->
+<!-- nav start -->
+		<ul id="nav">
+			<li id="btn01"><a href="../features.html" title="특징"><img src="../img/common/btn01_off.gif" width="170" height="42" alt="특징" /></a><br /></li>
+			<li><a href="../service.html" title="상호 이용 서비스"><img src="../img/common/btn02_off.gif" width="230" height="42" alt="상호 이용 서비스" /></a><br /></li>
+			<li id="using">
+				<a href="#" title="사용 방법"><img src="../img/common/btn03_off.gif" width="230" height="42" alt="사용 방법" /></a><br />
+				<ul class="subMenu">
+					<li><a href="using.html" title="자동 개찰기 이용 방법">자동 개찰기 이용 방법</a></li>
+					<li><a href="equipment.html" title="충전할 수 있는 기기">충전할 수 있는 기기</a></li>
+					<li><a href="charge.html" title="현금 충전(입금)">현금 충전(입금)</a></li>
+					<li><a href="history.html" title="이용 내역 표시・프린트 방법">이용 내역 표시・프린트 방법</a></li>
+					<li><a href="buy.html" title="승차권 구입・정산 방법">승차권 구입・정산 방법</a></li>
+					<li><a href="calculate.html" title="운임 계산">운임 계산</a></li>
+				</ul>
+			</li>
+			<li id="others">
+				<a href="#" title="기타"><img src="../img/common/btn04_off.gif" width="170" height="42" alt="기타" /></a><br />
+				<ul class="subMenu">
+					<li><a href="../others/wicket.html" title="환승 개찰구의 이용에 관하여">환승 개찰구의 이용에 관하여</a></li>
+					<li><a href="../others/money.html" title="전자화폐">전자화폐</a></li>
+					<li><a href="../others/faq.html" title="Q&amp;A・주의 사항">Q&amp;A・주의 사항</a></li>
+					<li><a href="../others/map.html" title="후쿠오카 교통 안내도">후쿠오카 교통 안내도</a></li>
+				</ul>
+			</li>
+		</ul>
+<!-- nav end -->
+<!-- contents start -->
+		<div id="contents">
+			<h2><img src="../img/using/history/page_title.gif" width="800" height="98" alt="사용 방법 -이용 내역 표시・프린트 방법-" /></h2>
+	<!-- features start -->
+			<div class="section">
+				<div class="inner">
+					<div class="messageArea clearFix">
+						<p class="left msgTopSpace"><img src="../img/using/history/history_copy.gif" width="521" height="68" alt="" /></p>
+						<img src="../img/using/history/history_illust.gif" width="95" height="110" alt="" class="left" />
+					</div>
+<!-- confirm start -->
+					<div id="confirmBox">
+						<h3><img src="../img/using/history/confirm_title.gif" width="740" height="35" alt="이용 내역의 확인에 관하여" /><br /></h3>
+						<ul>
+							<li>SUGOCA 표시가 부착된 자동발매기, 충전기에서 이용 내역을 확인할 수 있습니다.</li>
+							<li>이용 내역의 명세서를 발행 받을 수도 있습니다.</li>
+							<li>최근에 이용한 내역을 최대 20건까지 확인할 수도 있습니다. 단, 이용 후 26주가 지난 내역은 확인할 수 없습니다.(그 밖의 이용 상황에 따라 일부 확인할 수 없는 경우가 있습니다.)</li>
+							<li>nimoca 사용 가능 구역에서 이용할 경우에는 역명, 상호 이용 가능한 각 구역의 독자적인 서비스 등 일부 표시되지 않는 내역이 있습니다.</li>
+						</ul>
+					</div>
+<!-- confirm end -->
+<!-- usage start -->
+					<div id="usage">
+						<img src="../img/using/history/usage_top.gif" width="740" height="10" /><br />
+						<h3 class="left"><img src="../img/using/history/usage_title.gif" width="24" height="132" alt="이용내역을 보는 방법" /></h3>
+						<table width="676" border="0" cellspacing="0" cellpadding="0" id="usageTable" class="right">
+							<thead>
+								<tr>
+									<td colspan="4">주요 내역의 종별란은 아래의 내용을 나타냅니다.</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th><p class="bgStyle">入場(들어가기)</p></th>
+									<td class="leftSide">카드 내의 잔액을 사용하여 들어감</td>
+									<th><p class="bgStyle">出場(나가기)</p></th>
+									<td>카드 내의 잔액을 사용하여 나감</td>
+								</tr>
+								<tr>
+									<th><p class="bgStyle">現金(현금)</p></th>
+									<td class="leftSide">현금을 충전(입금)</td>
+									<th><p class="bgStyle">券購(구입)</p></th>
+									<td>카드 내의 잔액을 사용하여 자동발매기에서 승차권을 구입</td>
+								</tr>
+								<tr>
+									<th><p class="bgStyle">精算(정산)</p></th>
+									<td class="leftSide">카드 내의 잔액을 사용하여 자동정산기에서 승차권을 정산</td>
+									<th><p class="bgStyle">物販(쇼핑)</p></th>
+									<td>전자화폐로서 쇼핑에 사용</td>
+								</tr>
+								<tr>
+									<th><p class="bgStyle">バス等(버스 등)</p></th>
+									<td class="leftSide">상호 이용 가능한 버스 등에서 사용</td>
+									<th>&nbsp;</th>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						<img src="../img/using/history/usage_bottom.gif" width="740" height="9" class="clear" /><br />
+					</div>
+<!-- usage end -->
+<!-- charge start -->
+					<div id="historyCharge">
+						<h4><img src="../img/using/history/charge_title.gif" width="700" height="22" alt="" /></h4>
+						<div class="txtCenter"><img src="../img/using/history/charge_img.jpg" width="314" height="133" alt="" /><br /></div>
+						<div id="chargeTextBox" class="clearFix">
+							<ol class="left">
+								<li style="height:65px;overflow:hedden;"><img src="../img/using/history/charge_text01.gif" width="322" height="65" /><br /></li>
+								<li style="height:56px;overflow:hedden;"><img src="../img/using/history/charge_text02.gif" width="322" height="56" /><br /></li>
+								<li style="height:43px;overflow:hedden;"><img src="../img/using/history/charge_text03.gif" width="322" height="43" /><br /></li>
+							</ol>
+							<ol class="right">
+								<li style="height:65px;"><img src="../img/using/history/charge_text04.gif" width="263" height="65" /><br /></li>
+								<li style="height:56px;"><img src="../img/using/history/charge_text05.gif" width="263" height="56" /><br /></li>
+								<li style="height:43px;"><img src="../img/using/history/charge_text06.gif" width="263" height="43" /><br /></li>
+							</ol>
+						</div>
+						<img src="../img/using/history/charge_bottom.gif" width="700" height="11" alt="" /><br />
+					</div>
+<!-- charge end -->
+					<div id="boxSet" class="clearFix">
+<!-- insert start -->
+						<div id="historyInsert" class="boxStyle left">
+							<h4><img src="../img/using/history/insert_title.gif" width="337" height="45" alt="" /></h4>
+							<ol class="descriptionList">
+								<li style="height:133px;"><img src="../img/using/history/insert_img.jpg" width="297" height="133" alt="" /><br /></li>
+								<li class="textList" style="height:70px;"><img src="../img/using/history/insert_text01.gif" width="257" height="70" /><br /></li>
+								<li class="textList" style="height:180px;"><img src="../img/using/history/insert_text02.gif" width="271" height="180" /><br /></li>
+								<li class="textList" style="height:222px;"><img src="../img/using/history/insert_text03.gif" width="278" height="222" /><br /></li>
+								<li class="textList" style="height:231px;"><img src="../img/using/history/insert_text04.gif" width="280" height="231" /><br /></li>
+								<li class="textList" style="height:56px;"><img src="../img/using/history/insert_text05.gif" width="280" height="56" /><br /></li>
+							</ol>
+							<img src="../img/using/history/insert_bottom.gif" width="337" height="11" alt="" /><br />
+						</div>
+<!-- insert end -->
+<!-- holder start -->
+						<div id="historyHolder" class="boxStyle right">
+							<h4><img src="../img/using/history/holder_title.gif" width="337" height="54" alt="" /></h4>
+							<ol class="descriptionList">
+								<li style="height:132;"><img src="../img/using/history/holder_img.jpg" width="288" height="132" alt="" /><br /></li>
+								<li class="textList" style="height:76px;"><img src="../img/using/history/holder_text01.gif" width="279" height="76" /><br /></li>
+								<li class="textList" style="height:174px;"><img src="../img/using/history/holder_text02.gif" width="275" height="174" /><br /></li>
+								<li class="textList" style="height:222px;"><img src="../img/using/history/holder_text03.gif" width="276" height="222" /><br /></li>
+								<li class="textList" style="height:221px;"><img src="../img/using/history/holder_text04.gif" width="281" height="221" /><br /></li>
+								<li class="textList" style="height:61px;"><img src="../img/using/history/holder_text05.gif" width="281" height="61" /><br /></li>
+							</ol>
+							<img src="../img/using/history/holder_bottom.gif" width="337" height="11" alt="" /><br />
+						</div>
+<!-- holder end -->
+					</div>
+					<div class="goTop"><a href="#top" title="Go top"><img src="../img/common/go_top.gif" width="100" height="18" alt="Go top" /></a></div>
+				</div>
+			</div>
+	<!-- features end -->
+		</div>
+<!-- contents end -->
+
+<!-- footer start -->
+		<div id="footer">
+			<address>Copyright (C) 2011 Kyushu Railway Company. All Rights Reserved.</address>
+		</div>
+<!-- footer end -->
+	</div>
+</body>
+</html>

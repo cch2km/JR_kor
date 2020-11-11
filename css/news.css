@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.mrB15 {	margin-bottom: 15px; }
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.titleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+
+		#listTable {
+			margin: 15px auto;
+		}
+		
+		#listTable th,
+		#listTable td {
+			padding: 7px 5px;
+			text-align: left;
+			vertical-align: top;
+			border-bottom: 1px dashed #ccc;
+		}
+
+		#listTable th {
+			width: 80px;
+			padding-left: 10px;
+		}
+
+.article {
+	width: 580px;
+	margin: 20px auto;
+}
+
+.goList {
+	width: 580px;
+	margin: 10px auto;
+}
+
+.goList a:link 		{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:active 	{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:visited 	{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:hover 	{ display: block;padding: 3px 15px;background-color: #FFE3E4; text-decoration: underline; }
+
+
+/*-- 追記101111 村田@kdr --*/
+
+
+.article_open {
+	width: 580px;
+	margin: 20px auto;
+	background: #d80c18;
+}
+
+.article_open div {
+	width: 235px;
+	float: left;
+	padding: 45px 0 20px 75px;
+	color: #fff;
+}
+
+.article_open div p {
+	padding-bottom: 5px;
+}
+
+.map {
+	display: block;
+	float: right;
+	padding: 25px 55px 20px 0;
+}
+
+/*-- 追記101228 --*/
+
+.descriptionTxt {
+	margin-top: 10px;
+	padding: 5px 10px;
+	border: 3px double #ccc;
+	background-color: #f3f3f3;
+}
+
+#privilegeTable {
+	margin-top: 20px;
+	border: 3px solid #f3f3f3;
+	border-collapse: separate;
+}
+
+#privilegeTable th,
+#privilegeTable td {
+	padding: 3px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ccc;
+	border-collapse: separate;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#privilegeTable thead td {
+	background-color: #FFF7B5;
+	font-weight: bold;
+	text-align: center;
+}
+
+#privilegeTable tbody th {
+	width: 140px;
+}
+
+.news110210 { width:590px; margin:0 auto; padding:20px 0; font-size:1.1em; }
+.news110210 ol { margin:0; padding:0; width:590px; margin:0 auto; padding:10px 0 0 0; }
+.news110210 ol li { margin:0; padding:10px 0 0; text-indent:-12px; }
+.news110210 ol li strong { font-weight:bold; color:#ff0000; }
+.news110210 table { border-collapse:collapse;  }
+.news110210 table td, .news110210 table th { border:1px solid #cccccc; text-indent:0; padding:3px; line-height:1.2em; }
+.news110210 table th { font-weight:bold; background:#EF3030; color:#ffffff; }
+.news110210 table td.h_color { background:#fecdcd; font-weight:bold; }
+.news110210 table td.y_color { background:#fef4cd; }
+.news110210 div#image_area { text-align:center; padding:25px 0 15px;  }
+

@@ -1,0 +1,438 @@
+@charset "UTF-8";
+
+.indexList {
+	width: 628px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.listCenter { margin-left:44px; margin-right:44px; }
+.mrB10 {	margin-bottom: 10px; }
+.mrB15 {	margin-bottom: 15px; }
+.paR7 { padding-right: 7px; }
+
+.bg_brown { background:#f9f6ec; }
+.bg_yerrow { background:#fdfde9; }
+
+#serviceTbl {
+	width: 600px;
+	margin: 0 auto;
+	border: 3px double #eee;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+	#serviceTbl th,
+	#serviceTbl td {
+		padding: 5px;
+		border: 1px solid #ddd;
+		border-bottom: 1px solid #fff;
+		border-right: 1px solid #fff;
+		border-collapse: separate;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	#serviceTbl th {
+		width: 150px;
+		background-color: #F8EBC7;
+		font-weight: bold;
+		color: #454545;
+	}
+
+		.trainName {
+			font-weight: bold;
+		}
+		
+		.sideLine {
+			width: 200px;
+			border-left: 1px #ccc solid; 
+			border-right: 1px #ccc solid;
+		}
+
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+	
+	.imgArea {
+		width: 625px;
+		margin: 0 auto 20px;
+	}
+	
+	.imgArea_pt2 {
+		width: 625px;
+		margin: 0 auto 20px;
+	}
+	
+		.imgAreaSide {
+			width: 210px;
+			margin: 0 auto;
+		}
+	
+		.entry {
+			padding-bottom: 40px;
+		} 	
+		
+			.bigTitle {
+				font-weight: bold;
+				font-size: 180%;
+				line-height: 120%;
+				margin-bottom: 10px;
+				padding-bottom: 5px;
+				border-bottom: 1px #ccc dashed; 
+			}
+		
+			.titleStyle {
+				width: 600px;
+				height: 20px;
+				padding: 12px 0 10px 25px;
+				background: url(../img/japan/title_bg.gif) no-repeat;
+				overflow: visible;
+				font-size: 1.4em;
+				font-weight: bold;
+				margin-bottom: 30px;
+			}
+			
+			.addPadding {
+				height: 20px;
+				padding: 12px 0 10px 25px;
+			}
+
+			.entryInner {
+				padding: 0 20px 0;
+			}
+
+				.entryInner_pt2 div.leftIn {
+					width: 405px;
+					padding: 0;
+					float: left;
+				}
+
+					.entryInner_pt2 div.leftIn p {
+						padding: 0;
+					}
+
+				.entryInner_pt2 img {
+					float: right;
+					padding: 5px 30px 0 0;
+				}
+				
+				.courseArea {
+					width: 405px;
+					margin: 20px 0;
+					background: url(../train/img/bg_coursearea_bottom.gif) bottom no-repeat #f6f3e2;
+				}
+
+					.courseArea div {
+						background: url(../train/img/bg_coursearea_top.gif) top no-repeat;
+						padding: 16px 18px;
+					}
+				
+				.smallTitle {
+					margin-bottom: 20px;
+					padding: 0 10px 5px 10px;
+					border-bottom: 1px solid #ddd;
+					font-size: 1.4em;
+					font-weight: bold;
+				}
+				
+				.entryInner .topSpace {
+					padding-top: 20px;
+				}
+	
+					.describe {
+						padding: 5px 20px 15px;
+						font-weight: bold;
+					}
+
+					.greenArea { 
+						width:580px; 
+						padding: 15px 0 0 0; 
+						margin: 25px auto 0; 
+						font-weight: bold; 
+						border-top: 3px #cccccc double;
+					}
+					
+							.greenArea span { color:#ff0000; }
+							
+							.describeGreen {
+								padding: 5px 20px 15px 1.3em;
+							}
+						
+							.describeGreen a:link 		{ color: #1111cc; text-decoration: underline; }
+							.describeGreen a:active 	{ color: #1111cc; text-decoration: underline; }
+							.describeGreen a:visited 	{ color: #1111cc; text-decoration: underline; }
+							.describeGreen a:hover 		{ color: #FF0D0D; text-decoration: underline; }
+		
+			.photoSide {
+				width: 176px;
+				margin-left: 15px;
+			}
+		
+			.photoSideR {
+				width: 176px;
+				margin-right: 15px;
+			}
+
+				.twoImage {
+					width: ;
+					float: left;
+				}
+
+			.textSide {
+				width: 370px;
+			}
+
+			.textSide_pt2 {
+				width: 190px;
+			}
+
+			.textSide_pt3 {
+				width: 190px;
+				font-weight:bold;
+			}
+
+				.textSideShd {
+					display: block;
+					padding: 5px 0 5px;
+					border-bottom: 1px #ccc dashed;
+					margin-bottom: 7px;
+					font-weight: bold;
+				}
+
+				.textSideShd2 {
+					display: block;
+					padding: 5px 0 5px;
+					margin-bottom: 7px;
+					font-weight: bold;
+				}
+
+				dl.textSide dt {
+					font-weight: bold;
+					font-size: 1.2em;
+					margin-bottom: 10px;
+				}
+
+			.textArea {
+				width: 590px;
+				margin-right: 15px;
+				padding-left: 15px;
+			}
+			
+			.textSct {
+				width: 100%;
+			}
+	
+				.supTxt {
+					line-height: 1.4em;
+					color: #ee0000;
+				}
+	
+				.mainTxt {
+					margin: 0;
+				}
+			
+			
+			.bottomSpace {
+				margin-bottom: 15px;
+			}
+			
+			.extra {
+				clear: both;
+				width: 565px;
+				margin: 15px 0 0 15px;
+				padding: 15px;
+				border: 1px #ab9588 dashed;
+				background: #eeeeee;
+				color: #746767;
+			}
+			
+			.extra h5 {
+				font-weight: bold;
+				font-size: 1.1em;
+				margin-bottom: 5px;
+				color: #746767;
+			}
+			
+			.detailTbl {
+				width: 584px;
+				border: 0px;
+				border-collapse: collapse;
+				border-spacing: 0px;
+				margin: 0 0 5px 15px;
+
+			}
+				
+				.detailTbl thead {
+					border: 1px #ccc solid;
+					padding: 5px;
+					text-align: center;
+					background: #eeeeee;
+ 				}
+				
+				.detailTbl th {
+					border: 1px #ccc solid;
+					padding: 5px;
+					text-align: center;
+					background: #ab9588;
+					color: #fff;
+ 				}
+				
+				.detailTbl td {
+					width: 73px;
+					border: 1px #ccc solid;
+					padding: 5px;
+					vertical-align: top;
+					font-size: small;
+					text-align: left;
+ 				}
+
+	#subArea {
+		width: 200px;
+		padding: 10px 10px 0;
+		float: right;
+	} 	
+		
+			#subArea img {
+				display: block;
+				margin-bottom: 10px;
+			}
+		
+	#seatInfo {
+		width: 580px;
+		padding: 10px;
+		margin: 0 auto;
+		border-top: 3px double #ccc;
+		border-bottom: 3px double #ccc;
+	}
+
+		#seatList {
+			margin: 0 20px;
+			padding: 0;
+		}
+		
+		#seatList:after {
+			content: ".";
+			display: block;
+			visibility: hidden;
+			height: 0.1px;
+			font-size: 0.1em;
+			line-height: 0;
+			clear: both;
+		}
+
+		#seatList {
+			zoom: 100%;
+		}
+
+			#seatList li {
+				width: 60px;
+				margin: 0;
+				padding: 0 15px;
+				float: left;
+			}
+		
+		#photoDescription {
+			margin: 10px 20px;
+			padding: 10px 0 0 0;
+			border-top: 1px dashed #ccc;
+		}
+		
+			#photoDescription li {
+				margin: 0 0 0 15px;
+				padding: 0;
+				list-style-type: decimal;
+			}
+		
+		
+		
+
+#photoGallery {
+	width: 560px;
+	margin: 30px auto;
+	padding: 10px;
+	background-color: #EBE2CF;
+	border: 1px solid #E4D5B6;
+}
+
+	#photoGallery h3 {
+		padding: 0 0 5px 5px;
+		border-bottom: 1px double #B08C3F;
+		font-weight: bold;
+		
+	}
+	
+	#photoList {
+		margin: 5px 0 10px;
+	}
+	
+	#photoList:after {
+		content: ".";
+		display: block;
+		visibility: hidden;
+		height: 0.1px;
+		font-size: 0.1em;
+		line-height: 0;
+		clear: both;
+	}
+
+	#photoList {
+		zoom: 100%;
+	}
+
+	#photoList li {
+		width: 174px;
+		margin-top: 10px;
+		float: left;
+	}
+
+	#photoList .centerPhoto {
+		padding: 0 19px;
+	}
+
+	.separateLine {
+		padding-top: 30px;
+		border-top: 3px double #ccc;
+	}
+
+.roomInfoSet {
+	width: 580px;
+	margin: 20px auto 0;
+}
+
+	.roomInfoSet .roomPhotoList {
+		width: 580px;
+	}
+		.roomInfoSet .roomPhotoList li {
+			width: 267px;
+			margin-bottom: 10px;
+		}
+
+	.photoDescription {
+		clear: both;
+	}
+
+		.photoDescription dt {
+			margin-bottom: 5px;
+			padding-left: 10px;
+			border-left: 5px solid #ccc;
+			font-weight: bold;
+		}
+
+
+/*詳細ページ崩れ対策用*/
+.imgArea_pt2 img {
+	float:left;
+}
+	
+.imgAreaSide {
+	padding-left: 10px;
+}

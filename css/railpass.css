@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+.mrB15 {	margin-bottom: 15px; }
+.paL15 { padding-left: 15px; }
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.titleStyle {
+			width: 625px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-bottom: 15px;
+		}
+
+		.entry {
+			padding: 20px 0;
+		} 		
+
+			.textSide {
+				width: 400px;
+				margin-right: 15px;
+			}
+
+			.textArea {
+				width: 590px;
+				margin-right: 15px;
+				padding-left: 15px;
+			}
+			
+			.textSct {
+				width: 100%;
+			}
+	
+				.supTxt {
+					line-height: 1.4em;
+					color: #ee0000;
+				}
+	
+				.mainTxt {
+					margin: 0;
+				}
+			
+						
+			.extra {
+				clear: both;
+				width: 565px;
+				margin: 0 0 0 15px;
+				padding: 15px;
+				border: 1px #eaeaea solid;
+				background: #d0dffe;
+				color: #746767;
+			}
+
+			
+			.detailTbl {
+				width: 350px;
+				border: 0px;
+				border-collapse: collapse;
+				border-spacing: 0px;
+				margin: 0 0 5px 0;
+
+			}
+
+				.detailTbl th {
+					border: 1px #999 solid;
+					padding: 5px;
+					background: #f9f9d6;
+ 				}
+				
+				.detailTbl td {
+					border: 1px #999 solid;
+					padding: 5px;
+					vertical-align: top;
+					font-size: small;
+					background: #f6dbef;
+ 				}
+				
+			.listArea li {
+				padding-left: 20px;
+				margin-bottom: 10px;
+			}
+
+			.listArea2 li {
+				padding-left: 20px;
+				line-height:  120%;
+				margin-top:    5px;
+			}
+
+			.list01 {
+				background: url(../img/railpass/1.gif) 0 0 no-repeat;
+			}
+			
+			.list02 {
+				background: url(../img/railpass/2.gif) 0 0 no-repeat;
+			}
+			
+			.list03 {
+				background: url(../img/railpass/3.gif) 0 0 no-repeat;
+			}
+			
+			.list04 {
+				background: url(../img/railpass/4.gif) 0 0 no-repeat;
+			}
+			
+			.list05 {
+				background: url(../img/railpass/5.gif) 0 0 no-repeat;
+			}
+			
+			.list06 {
+				background: url(../img/railpass/6.gif) 0 0 no-repeat;
+			}
+			
+			.list07 {
+				background: url(../img/railpass/7.gif) 0 0 no-repeat;
+			}
+			
+			.list08 {
+				background: url(../img/railpass/8.gif) 0 0 no-repeat;
+			}
+			
+			.list09 {
+				background: url(../img/railpass/9.gif) 0 0 no-repeat;
+			}
+			
+			.list10 {
+				background: url(../img/railpass/10.gif) 0 0 no-repeat;
+			}
+			
+			.leftArea {
+				width: 53px;
+				float: left;
+				padding-left: 15px;
+			}
+			
+			.rightArea {
+				width: 540px;
+				float: right;
+			}
+			
+			.rightArea dt {
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+			
+			.rightArea dd {
+				margin-bottom: 10px;
+			}
+			
+			.rightArea {
+				width: 540px;
+				float: right;
+			}
+					
+	#subArea {
+		width: 200px;
+		padding: 10px 10px 0;
+		float: right;
+	} 	
+		
+			#subArea img {
+				display: block;
+				margin-bottom: 10px;
+			} 	
+
+#downloadInfo {
+	width: 405px;
+	padding: 50px 0;
+}
+
+	#downloadBtn {
+		margin-top: 40px;
+		text-align: center;
+	}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.mrB15 {	margin-bottom: 15px; }
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.titleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+
+		#listTable {
+			margin: 15px auto;
+		}
+		
+		#listTable th,
+		#listTable td {
+			padding: 7px 5px;
+			text-align: left;
+			vertical-align: top;
+			border-bottom: 1px dashed #ccc;
+		}
+
+		#listTable th {
+			width: 80px;
+			padding-left: 10px;
+		}
+
+.article {
+	width: 580px;
+	margin: 20px auto;
+}
+
+.goList {
+	width: 580px;
+	margin: 10px auto;
+}
+
+.goList a:link 		{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:active 	{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:visited 	{ display: block;padding: 3px 15px;background-color: #FFF1F2; text-decoration: underline; }
+.goList a:hover 	{ display: block;padding: 3px 15px;background-color: #FFE3E4; text-decoration: underline; }

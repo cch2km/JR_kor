@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+.mrB15 {	margin-bottom: 15px; }
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+
+		.titleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+		}
+
+		.entry {
+			padding-bottom: 20px;
+			border-bottom: 1px #ccc dashed;
+		} 		
+	
+			.entry h4 {
+				font-size: 1.2em;
+				font-weight: bold;
+				margin: 25px 0 15px;
+				padding: 0 15px 5px;
+			}
+	
+			.entry h4 span {
+				border-bottom: 2px #ff0000 solid;
+			}
+		
+			.photoSide {
+				width: 176px;
+				margin-left: 15px;
+			}
+		
+			.photoSideR {
+				width: 176px;
+				margin-right: 15px;
+			}
+
+			.textSide {
+				width: 400px;
+				margin-right: 15px;
+			}
+
+			.textSideL {
+				width: 400px;
+				margin-left: 15px;
+			}
+
+			.textArea {
+				width: 590px;
+				margin-right: 15px;
+				padding-left: 15px;
+			}
+			
+			.textSct {
+				width: 100%;
+			}
+	
+				.supTxt {
+					line-height: 1.4em;
+					color: #ee0000;
+				}
+	
+				.mainTxt {
+					margin: 0;
+				}
+			
+			.extra {
+				clear: both;
+				width: 565px;
+				margin: 15px 0 0 15px;
+				padding: 15px;
+				border: 1px #ab9588 dashed;
+				background: #eeeeee;
+				color: #746767;
+			}
+			
+			.extra h5 {
+				font-weight: bold;
+				font-size: 1.1em;
+				margin-bottom: 5px;
+				color: #746767;
+			}
+			
+			.detailTbl {
+				width: 584px;
+				border: 0px;
+				border-collapse: collapse;
+				border-spacing: 0px;
+				margin: 0 0 5px 15px;
+
+			}
+				
+				.detailTbl thead {
+					border: 1px #ccc solid;
+					padding: 5px;
+					text-align: center;
+					background: #eeeeee;
+ 				}
+				
+				.detailTbl th {
+					border: 1px #ccc solid;
+					padding: 5px;
+					text-align: center;
+					background: #ab9588;
+					color: #fff;
+ 				}
+				
+				.detailTbl td {
+					width: 73px;
+					border: 1px #ccc solid;
+					padding: 5px;
+					vertical-align: top;
+					font-size: small;
+					text-align: left;
+ 				}
+								

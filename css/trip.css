@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+#sctInner {
+	width: 870px;
+	margin: 0 auto;
+	background: url(../img/japan/side_bg.gif) top right repeat-y; 
+}
+
+	#mainArea {
+		width: 625px;
+		float: left;
+	}
+	
+	.imgArea {
+		width: 625px;
+		margin: 0 auto 20px;
+	}
+
+
+		.titleStyle {
+			width: 600px;
+			height: 20px;
+			padding: 12px 0 10px 25px;
+			background: url(../img/japan/title_bg.gif) no-repeat;
+			overflow: visible;
+			font-size: 1.4em;
+			font-weight: bold;
+			margin-bottom: 15px;
+		}
+
+		.entryInner {
+			padding: 0 20px 0;
+		}
+		
+		.blogSet {
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			border-bottom: 3px double #ccc;
+		}
+		
+			.infoTxt {
+				width: 360px;
+				/*margin-top: 30px;*/
+			}
+
+				.infoTxt dt {
+					font-weight: bold;
+				}
+				
+				.infoTxt .linkTxt {
+					margin-top: 5px;
+					padding-top: 5px;
+					border-top: 1px dashed #ccc;
+				}
+
+					.infoTxt .linkTxt a:link,
+					.infoTxt .linkTxt a:visited { color: #D80A1A; text-decoration: underline; }
